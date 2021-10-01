@@ -29,8 +29,8 @@ body {
     position: absolute;
     bottom: 0;
     left: 0;
-    font-size: 20px;
-    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
     padding: 5px;
 }
 
@@ -48,6 +48,11 @@ body {
 
 .mute {
     color: #dc2f02;
+}
+
+.arrow {
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -91,6 +96,36 @@ main {
 
 /* footer */
 footer {
-    background: orange;
+    background: #202123;
     display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.footer-left,
+.footer-center,
+.footer-right{
+    display: flex;
+    list-style: none;
+}
+
+.footer-left.icon-section div{
+    display: flex;
+} 
+
+.icon-section .icon{
+    font-size: 25px;
+    padding: 10px;
+}
+
+.footer-left span,
+.footer-center span{
+    display: block;
+    font-weight: 300;
+    padding: 5px 15px;
+}
+
+.footer-right .button {
+    color: #dc2f02;
+    font-weight: 600;
 }
