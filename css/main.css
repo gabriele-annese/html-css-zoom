@@ -30,7 +30,11 @@ body {
 }
 
 .mg-r {
-    margin-right: 5px;
+    margin-right: 10px;
+}
+
+.margin {
+    margin: 10px;
 }
 
 /* header */
@@ -43,8 +47,21 @@ header{
 /* main */
 main {
     background-color: aqua;
-    height: 100%;
 }
+
+.gallery {
+   list-style-type: none;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.gallery .img-section {
+    width: 320px;
+    height: 150px;
+    background-color: orange;
+}
+
 
 /* footer */
 footer {
