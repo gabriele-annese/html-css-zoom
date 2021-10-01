@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* UTILITY */
+body {
+    background-color: #000;
+    font-size: 14px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: auto;
+}
+
+/* header */
+header {
+    background: orange;
+    height: 80px;
+}
+
+/* main */
+main {
+    background-color: aqua;
+    height: 100%;
+}
+
+/* footer */
+footer {
+    background: orange;
+    height: 80px;
+}
