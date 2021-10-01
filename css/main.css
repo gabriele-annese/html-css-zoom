@@ -50,11 +50,6 @@ body {
     color: #dc2f02;
 }
 
-.arrow {
-    justify-content: center;
-    align-items: center;
-}
-
 
 /* header */
 header{
@@ -109,23 +104,29 @@ footer {
     list-style: none;
 }
 
-.footer-left.icon-section div{
+.icon-section.drop-menu{
     display: flex;
+    align-items: center;
 } 
 
 .icon-section .icon{
     font-size: 25px;
-    padding: 10px;
+    padding: 10px 0;
 }
 
 .footer-left span,
 .footer-center span{
+    font-size: 16px;
     display: block;
     font-weight: 300;
-    padding: 5px 15px;
+    padding: 5px 10px;
 }
 
 .footer-right .button {
     color: #dc2f02;
     font-weight: 600;
+}
+
+.icon-section .fa-external-link-alt {
+    color: #4cc703
 }
